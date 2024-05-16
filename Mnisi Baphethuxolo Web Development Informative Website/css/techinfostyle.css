@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* background colour of the page */
+body{
+    background-color:cadetblue;
+}
+/* style navigation bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.logo{
+    color: white;
+    font-size: 28px;
+}
+span{
+    color: #ea1538;
+}
+/* style navigation bar */
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+/* style navigation bar */
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* style navigation bar */
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+/* style button */
+button{
+    border: none;
+    background: #ea1538;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+}
+/* when the user moves the cursor over the button it transforms */
+button:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+/* style footer */
+footer{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+/* style par1 */
+.par1{
+    width: fit-content;
+
+}
+/* style table */
+table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    ;
+}
+/* style table body and table data */
+tbody, td{
+    border: 1px solid black;
+}
